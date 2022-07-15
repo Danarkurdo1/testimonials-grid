@@ -1,0 +1,87 @@
+:root{
+
+    /* Primary Colors */
+    --Moderate-violet: hsl(263, 55%, 52%);
+    --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --White: hsl(0, 0%, 100%);
+
+    /* Neutral */
+    --Ligh-gray: hsl(0, 0%, 81%);
+    --Ligh-grayis-blue: hsl(210, 46%, 95%);
+}
+
+body{
+    font-size: 13px;
+}
+
+#testamonials{
+    background-color: var(--Ligh-grayis-blue);
+    padding: 7% 5% !important;
+}
+
+.card-container{
+    padding: 4% !important;
+    border-radius: 10px;
+    height: 100% !important;
+}
+
+.danial-card{
+    background-color: var(--Moderate-violet);
+}
+
+.jonathan-card{
+    background-color: var(--Very-dark-grayish-blue);
+}
+
+.kira-card ,.jeanette-card{
+    background-color: var(--White);
+}
+
+.kira-card h2,.jeanette-card h2{
+    color: var(--Very-dark-blackish-blue) !important;
+}
+
+.kira-card h6,.jeanette-card h6{
+    color: var(--Very-dark-blackish-blue) !important;
+}
+
+.kira-card p,.jeanette-card p{
+    color: var(--Ligh-gray)!important;
+    opacity: 100% !important;
+}
+
+.patrick-card{
+    background-color: var(--Very-dark-blackish-blue);
+}
+
+.profile{
+    padding: 3% !important;
+}
+
+.profile img {
+    border-radius: 100%;
+    float: left;
+    margin-right: 1rem;
+}
+
+.testamonials-heading{
+    color: var(--White) !important;
+    font-size: 1.3rem !important;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600 !important;
+}
+
+.profile-heading{
+    color: var(--Ligh-gray)!important;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600 !important;
+}
+
+p{
+    color: var(--Ligh-gray)!important;
+    opacity: 50%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500 !important;
+}
+
